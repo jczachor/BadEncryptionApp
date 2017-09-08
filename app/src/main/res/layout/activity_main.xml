@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    >
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:hint="@string/password"
+        android:drawablePadding="8dp"
+        />
+    <Button
+        android:id="@+id/reverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/reverse"
+        android:drawablePadding="8dp"
+        />
+    <Button
+        android:id="@+id/todigits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/changetodigits"
+        />
+
+</LinearLayout>
